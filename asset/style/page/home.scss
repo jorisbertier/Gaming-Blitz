@@ -1,0 +1,73 @@
+
+.filtre1 {
+    font-size: 18px;
+    border-radius: 30px;
+    height: 50px;
+    background-color: rgb(35, 198, 35);
+    color: white;
+    font-weight: 500;
+}
+
+.dropdown-toggle {
+    background-color: #ff4020;
+    border: none;
+}
+
+.icon {
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    width: 200px;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+}
+
+.card1 {
+    background-size: cover !important;
+    background-position: center;
+    color: #1E1F25 !important;
+    height: 450px !important;
+    box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
+    transition: transform 0.4s;
+    background-repeat: no-repeat !important;
+
+        a:hover {
+            color: #272727;
+        }
+}
+.card1:hover {
+    transform: translateY(-0.75em);
+    transition: 300ms;
+}
+
+
+.blob {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+}
+
+.bi-heart-fill {
+    transition: 0.5s ease-in;
+}
+.bi-heart-fill:hover {
+    color: red;
+    transition: 0.5s ease-in;
+}
+
+.xbox {
+    transition: 0.5s ease-in;
+}
+
+.xbox:hover {
+    color: #107C10;
+    transition: 0.5s ease-in;
+}
+
+.page {
+    background-color: #ff4020 !important;
+    text-decoration: none;
+    border: none;
+}

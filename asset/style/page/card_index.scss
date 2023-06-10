@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+   background-color: #272727 !important;
+   color: white;
+}
+.affiche {
+    background-image: url(/asset/image/xbox2.png);
+    background-repeat: no-repeat;
+    object-fit: contain;
+    height: 600px;
+    background-size: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 45%, 100% 100%, 64% 90%, 38% 84%, 0 80%, 0 30%);
+    perspective: -1000px;
+    
+}
+
+.cardApi {
+    object-fit: fill;
+    height: 340px;
+    width: 370px;
+    border-radius: 30px;
+    transition: transform 0.4s;
+    cursor: pointer;
+}
+
+.textCard {
+    // color: white;
+}
+.blocText {
+    width: 406px;
+}
+
+.card {
+    background-color: #272727 !important;
+    border: none;
+    color: white;
+    
+    img {
+        height: 350px;
+        object-fit: fill;
+        width: 300px;
+        border-radius: 30px;
+        transition: transform 0.4s;
+        cursor: pointer;
+    }
+    img:hover {
+        transform: translateY(-0.75em);
+        transition: 300ms;
+    }
+    .card-body h5 {
+        font-size: 14px !important;
+        font-weight: 400;
+    }
+}

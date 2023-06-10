@@ -1,0 +1,33 @@
+.cardBasket {
+    background-color: white !important;
+    p, h5 {
+        color: #272727 !important;
+    }
+    input {
+        background-color: #272727 ;
+        color: white;
+    }
+
+    i {
+        color: red !important;
+    }
+}
+
+.titleBasket {
+    color: white;
+    font-size: 40px;
+}
+
+@media (max-width: 1160px) {
+    .cardBasket img {
+        height: 150px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 760px) {
+    .cardBasket img {
+        height: 200px;
+        width: 150px;
+    }
+}

@@ -1,0 +1,165 @@
+.imgGame {
+    height: 650px;
+    width: 600px;
+    object-fit: fill;
+    border-radius: 30px;
+}
+
+.textGame {
+    background-color: rgba(16, 16, 16, 0.503) !important;
+    -webkit-backdrop-filter: blur(60px) saturate(100%);
+    backdrop-filter: blur(60px) saturate(100%); //ne marche pas a regler
+    border-radius: 30px;
+    color: white;
+    height: 410px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    div:nth-child(1) {
+        font-size: 18px;
+    }
+    div:nth-child(2) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        font-size: 18px;
+        background-color: rgba(16,16,16,.3);
+        height: 45px;
+        border-radius: 40px;
+    }
+    div:nth-child(2) .xbox {
+        color: #a6ec24;
+    }
+    #select {
+        background-color: grey;
+        opacity: 0.5;
+        width: 175px;
+        height:40px;
+    }
+
+    .btnAchat {
+         background-color: #ff4020;
+         color: #fff;
+    }
+
+    ul li {
+        list-style: none;
+        text-decoration: none;
+    }
+
+    ul {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    ul a {
+        
+        color: white;
+        &:hover {
+            color:#ff4020;
+        }
+    }
+    
+}
+
+.description {
+    color: white;
+
+}
+
+.img-fluid {
+    height: 150px !important;
+}
+
+.commentContent {
+    background-color: white;
+    color:#272727;
+    border-radius: 20px;
+}
+
+.link-muted {
+    text-decoration: none;
+    a {
+        color:black !important;
+    }
+    .bi-hand-thumbs-up-fill {
+        color: green;
+    }
+    .bi-hand-thumbs-down-fill {
+        color: red;
+    }
+}
+
+
+
+@media (max-width: 800px) {
+    .imgGame {
+        height: 450px;
+        width: 500px;
+    }
+
+    .description p{
+        font-size: 12px;
+    }
+    .textGame {
+        font-size: 14px;
+        div:nth-child(1) {
+            font-size: 14px;
+        }
+        div:nth-child(2) {
+            font-size: 14px;
+        }
+        .flag {
+            height: 25px;
+            width: 25px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .imgGame {
+        height: 375px;
+        width: 425px;
+    }
+
+    .description p{
+        font-size: 12px;
+    }
+    .textGame {
+        font-size: 14px;
+        div:nth-child(1) {
+            font-size: 14px;
+        }
+        div:nth-child(2) {
+            font-size: 14px;
+        }
+        .flag {
+            height: 25px;
+            width: 25px;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .imgGame {
+        height: 300px;
+        width: 250px;
+    }
+    .textGame {
+        font-size: 10px;
+        div:nth-child(1) {
+            font-size: 10px;
+        }
+        div:nth-child(2) {
+            font-size: 10px;
+        }
+        .flag {
+            height: 15px;
+            width: 15px;
+        }
+    }
+}
