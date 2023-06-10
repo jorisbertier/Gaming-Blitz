@@ -17,3 +17,4 @@ Afin de faciliter la navigation pour les utilisateurs, j'ai mis en place un syst
 Conclusion :
 La création de mon site web de gaming avec un système d'achat et un filtre par genre a été un projet intéressant. Grâce à l'utilisation de l'API Steam-ish en PHP, j'ai pu accéder à une multitude de jeux et offrir aux utilisateurs de simuler une expérience d'achat. Je suis ravi d'avoir pu créer un espace où les amateurs de jeux peuvent trouver facilement des titres qui correspondent à leurs intérêts.
 
+<a href="/index.php">Lien du site</a>
